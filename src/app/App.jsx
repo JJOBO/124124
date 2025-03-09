@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./../pages/home/Home";
 import UsedMarket from "./../pages/used-market/Index";
 import NotFound from "../pages/error/NotFound";
+import Layout from "./layout/Layout";
 
 function App() {
   return (
