@@ -11,9 +11,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/community" element={<Community />} />
           <Route path="/used-market" element={<UsedMarket />} />
-          <Route path="/login" element={<SignIn />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
